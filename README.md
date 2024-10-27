@@ -3,11 +3,12 @@
 
 ## Features
 - **Load and merge** prediction results from XGBoost and ARIMA models.
-- **Visualize patient data** by plotting the total number of patients per month across different years.
+- **Analyze patient data** by visualizing total and average patient counts across various periods (monthly, daily, weekly, yearly).
 
 ### Main Functions:
 - `plotMonthCounts()`: Visualizes the number of patients per month for selected years.
-- `plotTotalPatientsPerMonth()`: Plots the total number of patients for each month.
+- `plotMonthSumCounts()`: Plots the total number of patients for each month.
+- `plotMonthSumCountsPeriod()` Plots the average number of patients over a specified period (1d, 1w, 1m, 1y).
 
 ### Files:
 - `Praktyki_SOR.ipynb`: Main Jupyter Notebook containing the analysis, predictions, and visualizations.
