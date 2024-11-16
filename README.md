@@ -8,7 +8,8 @@
 ### Main Functions:
 - `plotMonthCounts()`: Visualizes the number of patients per month for selected years.
 - `plotMonthSumCounts()`: Plots the total number of patients for each month.
-- `plotMonthSumCountsPeriod()` Plots the average number of patients over a specified period (1d, 1w, 1m, 1y).
+- `plotMonthSumCountsPeriod()`: Plots the total number of patients over a specified period (Nd, 1w, 1m, 1y).
+- `plotMonthAverageCountsPeriod()` Plots the average number of patients over a specified period (Nd, 1w, 1m, 1y).
 
 ### Files:
 - `Praktyki_SOR.ipynb`: Main Jupyter Notebook containing the analysis, predictions, and visualizations.
